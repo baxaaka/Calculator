@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h1>Calculator</h1>
+      </nav>
+      <br />
+      <br />
+      <span id="clear">clear</span>
+      <div class="box">
+       
+        <input type="number" id="num1" />
+        <input type="number" id="num2" />
+
+        <div class="operator">
+          <button id="plus" onclick="plus()">+</button>
+          <button id="minus" onclick="minus()">-</button>
+          <button id="times" onclick="times()">*</button>
+          <button id="divide" onclick="divide()">/</button>
+          <button id="dar" onclick="daraja()">daraja</button>
+        </div>
+
+        <br />
+        <!-- 
+        <button onclick="calc()" >Hisobla</button> -->
+
+        <p id="out">Javob:</p>
+      </div>
+    </div>
+  </body>
+
+  <script src="/app.js"></script>
+</html>

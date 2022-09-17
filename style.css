@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  background-color: rgb(8, 182, 251);
+}
+
+.container {
+  width: 20%;
+  height: 450px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  left: 20px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: 34px;
+  background-color: #f3d80c;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+button:hover {
+    transform:scale(1.1) ;
+    transition: 0.7s;
+   box-shadow: 1px 2px 7px 1px gold;
+    -webkit-transform:scale(1.1) ;
+    -moz-transform:scale(1.1) ;
+    -ms-transform:scale(1.1) ;
+    -o-transform:scale(1.1) ;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+input {
+  width: 80%;
+  height: 50px;
+  margin-top: 3px;
+  position: relative;
+  left: 30px;
+  background-color: rgba(244, 244, 244, 0.21);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+p {
+  font-size: 34px;
+  text-align: center;
+  background-color: rgb(255, 0, 162);
+}
+
+input {
+  text-align: center;
+}
+
+nav h1 {
+  text-align: center;
+}
+
+#dar {
+  font-size: 12px;
+  position: relative;
+  bottom: 12px;
+}
+
+#clear {
+  position: relative;
+  bottom: 34px;
+  left: 203px;
+  padding: 6px 17px;
+  background-color: rgb(245, 0, 200);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+  button {
+    width: 40px;
+    height: 40px;
+    font-size: 23px;
+    position: relative;
+    left: 70px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+
+  #clear {
+    position: relative;
+    left: 270px;
+  }
+  #dar{
+    font-size: 8px;
+     
+  
+   
+  }
+}
